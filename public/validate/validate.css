@@ -1,0 +1,15 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.validateTable {
+    left: 50%;
+    margin-left: -200px;
+
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}

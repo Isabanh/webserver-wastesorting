@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-storage.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="current.css">
+
+    <script src="../utilities/utils.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../utilities/firebase.js" type="text/javascript" charset="utf-8"></script>
+    <script src="current.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<style>
+    .content {
+        max-width: 500px;
+        margin: auto;
+    }
+</style>
+<body>
+<div class="imageColumn">
+    <img id="image">
+    </img>
+</div>
+<div class="dataColumn">
+    <table class="table">
+        <tr>
+            <th class="tableClass">
+                <div id="firstClass"></div>
+            </th>
+            <th class="tableConf">
+                <div id="firstClassConf"></div>
+            </th>
+        </tr>
+        <tr>
+            <td class="tableClass">
+                <div id="secondClass"></div>
+            </td>
+            <td class="tableConf">
+                <div id="secondClassConf"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="tableClass">
+                <div id="thirdClass"></div>
+            </td>
+            <td class="tableConf">
+                <div id="thirdClassConf"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="tableTime">
+                <div id="time"></div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

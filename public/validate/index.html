@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-storage.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="validate.css">
+
+    <script src="../utilities/utils.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../utilities/firebase.js" type="text/javascript" charset="utf-8"></script>
+    <script src="validate.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<style>
+    .content {
+        max-width: 500px;
+        margin: auto;
+    }
+</style>
+<body>
+
+<table border='1px solid black' class="validateTable">
+    <tr>
+        <td>
+            <img id="imageToPredict">
+        </td>
+        <td>
+            <table class="innerTableValidate" >
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('cardboard')">Cardboard</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('paper')">Paper</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('plastic')">Plastic</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('glass')">Glass</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('metal')">Metal</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="validateButtonClicked('trash')">Residual</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <button onclick="validateButtonClicked('skip')">Skip</button>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

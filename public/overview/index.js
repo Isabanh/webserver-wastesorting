@@ -1,4 +1,6 @@
-
+$(document).ready(function() { setTimeout(function() {
+    tableCreate();
+}, 2000); });
 
 var listOfTrashImages = [];
 var mapOfTrashImages = new Map();
@@ -16,7 +18,7 @@ function downloadImages() {
     })
 }
 
-var bin = db.collection("Bin");
+var bin = db.collection(currentBin);
 var listOfTrashData = [];
 bin.get()
     .then(function(querySnapshot) {

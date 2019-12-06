@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imageColumn {
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -100px;
+
+    position: absolute;
+    height: 200px;
+    width: 300px;
+}
+.dataColumn {
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    left: 50%;
+    top: 50%;
+    margin-left: 50px;
+    margin-top: -100px;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.table {
+    border: 0px solid black;
+}
+
+.tableClass {
+    text-align: left;
+}
+
+.tableConf {
+    text-align: right;
+}
+
+#firstClass {
+    opacity: 1;
+}
+
+#secondClass {
+    opacity: 0.5;
+}
+
+#thirdClass {
+    opacity: 0.5;
+}
+
+#firstClassConf {
+    opacity: 1;
+}
+
+#secondClassConf {
+    opacity: 0.5;
+}
+
+#thirdClassConf {
+    opacity: 0.5;
+}
+
+#time {
+    font-size: 8px;
+    opacity: 0.5;
+    margin-top: 75px;
+}
